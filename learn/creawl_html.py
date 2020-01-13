@@ -12,7 +12,6 @@ from PyQt5.QtWebKitWidgets import *
 from lxml.html import etree
 
 
-# use QtWebkit to get the final webpage
 class WebRender(QWebPage):
     def __init__(self, url):
         self.app = QApplication(sys.argv)
