@@ -8,7 +8,7 @@
 import sys
 
 from PyQt5.QtWidgets import QApplication, QMainWindow
-from learn.firstMainWin import *
+from learn.three import *
 
 
 class MyMainWindow(QMainWindow, Ui_MainWindow):
@@ -16,12 +16,9 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
         super(MyMainWindow, self).__init__()
         self.setupUi(self)
 
- 
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     myWin = MyMainWindow()
     myWin.show()
     sys.exit(app.exec_())
-
-
-

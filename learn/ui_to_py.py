@@ -57,6 +57,6 @@ def list_file(folder):
 
 
 if __name__ == '__main__':
-    ui_path = r"D:\Workspace\CommenSpider\learn"  # ui 文件或者文件夹 将py文件生成在同级目录
+    ui_path = r"D:\Workspace\CommenSpider\learn\three.ui"  # ui 文件或者文件夹 将py文件生成在同级目录
     UIP = UItoPy()
     UIP.run_main(ui_path)
