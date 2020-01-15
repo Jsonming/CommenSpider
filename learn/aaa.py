@@ -105,3 +105,6 @@ class Ui_MainWindow(object):
         self.radioButton.setText(_translate("MainWindow", "RadioButton"))
         self.commandLinkButton.setText(_translate("MainWindow", "CommandLinkButton"))
         self.toolButton.setText(_translate("MainWindow", "..."))
+
+
+
